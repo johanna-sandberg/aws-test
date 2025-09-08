@@ -1,0 +1,9 @@
+{
+  "name": "aws-test",
+  "dockerFile": "Dockerfile",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "workspaceFolder": "/workspace/aws-test",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/aws-test,type=bind"
+}
